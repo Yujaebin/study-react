@@ -6,8 +6,7 @@ const Student =({name,dispatch,id,isHere })=>{
             <span style={{
                 textDecoration: isHere ? 'line-through' :'none',
                 color: isHere ?  'gray' :'black',
-
-            }}
+                }}
             onClick={()=>{
                 dispatch({type: 'mark-student' , payload:{id}});
             }}
