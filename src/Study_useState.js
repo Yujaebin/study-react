@@ -46,7 +46,7 @@ function Study_useState() {
       <input type="text" value={input} onChange={handleInputChange}></input>
       <button onClick={hadleUpload}>Upload</button>
       {names.map((name ,idx)=>{
-        return <p key={idx}>{name}</p>
+        return (<p key={idx}>{name}</p>)
       })}
     </div>
   );

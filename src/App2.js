@@ -24,7 +24,7 @@ const reducer2 =(state,action)=>{
       return{
         count:state.count,
         students : state.students.map(student=>{
-          if(student.id == action.payload.id){
+          if(student.id === action.payload.id){
             return{...student, isHere: !student.isHere}
           }
            return student
