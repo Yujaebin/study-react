@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import App2 from './App2';
 import Study_useState from './Study_useState';
+import Study_userEffect from './Study_userEffect';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Study_useState />
+    <Study_userEffect />
   </React.StrictMode>,
   document.getElementById('root')
 );
