@@ -5,11 +5,12 @@ import App from './App';
 import App2 from './App2';
 import Study_useState from './Study_useState';
 import Study_userEffect from './Study_userEffect';
+import Study_useRef from './Study_useRef';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Study_userEffect />
+    <Study_useRef />
   </React.StrictMode>,
   document.getElementById('root')
 );
