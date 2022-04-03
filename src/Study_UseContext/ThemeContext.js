@@ -7,7 +7,7 @@ export const ThemeContext =createContext(null);
 
 
 //
-//씨바ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ 예제 코드다날라감...
+//씨바ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ 예제 코드다날라감... 유튜브 참고하기
 
 /*
 
