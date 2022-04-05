@@ -3,6 +3,7 @@ import Student from './Student';
 
 const reducer2 =(state,action)=>{
   switch(action.type){
+
     case 'add-student':
       const newStudent= {
         id:Date.now(),
@@ -39,7 +40,7 @@ const reducer2 =(state,action)=>{
 const initialState={
     count:0,
     students:[ ],
-};
+    };
 
 
 function App2() {

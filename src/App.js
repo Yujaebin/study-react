@@ -20,8 +20,6 @@ const reducer = (state,action) =>{
   }
 }
 
-
-
 function App() {
   const [number,setNumber] =useState(0);
   const [money,dispatch] =useReducer(reducer,0);

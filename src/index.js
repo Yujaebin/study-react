@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import App2 from './App2';
+import App3 from './Velopert/App3';
 import Study_useState from './Study_useState';
 import Study_userEffect from './Study_userEffect';
 import Study_useRef from './Study_useRef';
+import Study_useRef2 from './Study_useRef_2'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Study_useRef />
+    <App3/>
   </React.StrictMode>,
   document.getElementById('root')
 );

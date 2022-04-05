@@ -11,6 +11,7 @@ function Study_useRef_2() {
 
     const login=()=>{
         alert(`환영합니다 ${inputRef.current.value}`);
+        console.log(inputRef);
     }
 
     return (
